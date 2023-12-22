@@ -70,6 +70,8 @@ a:hover {
 header {
     display: grid;
     grid-template-rows: repeat(2, .5fr);
+    box-shadow: 0 5px 5px rgb(192, 189, 189);
+    position: relative;
 }
 
 header #controller-1 {
@@ -173,4 +175,10 @@ img.profile-img {
     object-fit: cover;
     border-radius: 50%;
     cursor: pointer;
+}
+
+/* Main */
+main {
+    padding: 25px 20px;
+    background-color: rgb(226, 225, 235);
 }
